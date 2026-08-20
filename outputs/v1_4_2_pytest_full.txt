@@ -1,0 +1,26 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.5, pytest-9.0.2, pluggy-1.6.0
+rootdir: /mnt/data/k_leo_orbit_designer_v1.4.2
+configfile: pyproject.toml
+testpaths: tests
+plugins: metadata-3.1.1, ddtrace-4.4.0, Faker-40.1.2, json-report-1.5.0, cov-7.0.0, asyncio-1.3.0, anyio-4.13.0
+asyncio: mode=Mode.STRICT, debug=False, asyncio_default_fixture_loop_scope=None, asyncio_default_test_loop_scope=function
+collected 44 items
+
+tests/test_api.py ........                                               [ 18%]
+tests/test_assets.py ...                                                 [ 25%]
+tests/test_geometry.py ...                                               [ 31%]
+tests/test_heatmap.py ...                                                [ 38%]
+tests/test_link.py ..                                                    [ 43%]
+tests/test_occlusion_js.py .                                             [ 45%]
+tests/test_orbit.py ...                                                  [ 52%]
+tests/test_routing.py .                                                  [ 54%]
+tests/test_service_regions.py ...                                        [ 61%]
+tests/test_simulation.py ..                                              [ 65%]
+tests/test_tle.py ...s..                                                 [ 79%]
+tests/test_ui_contract.py ......                                         [ 93%]
+tests/test_visualization.py ...                                          [100%]
+
+=========================== short test summary info ============================
+SKIPPED [1] tests/test_tle.py:51: sgp4 runtime is installed by uv sync, but unavailable in this sandbox
+======================== 43 passed, 1 skipped in 1.78s =========================

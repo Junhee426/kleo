@@ -1,0 +1,4 @@
+kleo_satellite.glb 200
+kleo_satellite_compact.glb 200
+kleo_satellite_broadband.glb 200
+kleo_satellite_flatpanel.glb 200
