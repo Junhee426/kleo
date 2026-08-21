@@ -1,4 +1,0 @@
-........................................s...........                     [100%]
-=========================== short test summary info ============================
-SKIPPED [1] tests/test_tle.py:51: sgp4 runtime is installed by uv sync, but unavailable in this sandbox
-51 passed, 1 skipped in 0.94s
